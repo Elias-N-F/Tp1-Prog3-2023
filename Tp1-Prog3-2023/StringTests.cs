@@ -45,11 +45,11 @@ namespace Tp1_Prog3_2023
 
 
         [Theory]
-        [InlineData(500)]
-        [InlineData(5000)]
-        [InlineData(50000)]
-        [InlineData(500000)]
-        [InlineData(5000000)]
+        [InlineData(1000)]
+        [InlineData(10000)]
+        [InlineData(100000)]
+        [InlineData(1000000)]
+        [InlineData(10000000)]
         public void TestInsertStringLL(int cantidad)
         {
             //Agrega cantidad, inserta cantidad despues del primer indice
@@ -73,11 +73,11 @@ namespace Tp1_Prog3_2023
         }
 
         [Theory]
-        [InlineData(500)]
-        [InlineData(5000)]
-        [InlineData(50000)]
-        //[InlineData(500000)] >1 minuto
-        //[InlineData(5000000)]
+        [InlineData(1000)]
+        [InlineData(10000)]
+        [InlineData(100000)]
+        //[InlineData(1000000)] >1 minuto
+        //[InlineData(10000000)]
         public void TestInsertStringList(int cantidad)
         {
             //Agrega cantidad, inserta cantidad despues del primer indice
